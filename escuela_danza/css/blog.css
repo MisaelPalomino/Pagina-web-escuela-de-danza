@@ -1,0 +1,170 @@
+* {
+    font-family: "Latolight";
+}
+.boton {
+	display: inline-block;
+	padding: 1%;
+	text-decoration: none; 
+	border-radius: 5px; 
+	border: none;
+	cursor: pointer;
+}
+.boton:hover {
+	background-color: #6d6d6d;
+	color:white;
+}
+#button_main{
+	position: fixed;
+	right: 0;
+	padding: 1%;
+	background-color: #0d1b2a;
+	color: white;
+	z-index: 3;
+	border-radius: 0.5rem;
+}
+#articlecontainer{
+	margin-bottom: 5%;
+}
+#button{
+	color: #d1d1d3;
+	padding: 1%;
+	background-color: #192951;
+	border-radius: 0.25rem;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+#espacio{
+	padding-bottom: 1%;
+}
+.corrido{
+	font-style: italic;
+	color: #eaeaeb;
+}
+div#text-contain{
+	background-color: #d1d1d3;
+	padding: 4%;
+}
+div#img-contain{
+	margin: 0;
+	padding: 0;
+}
+
+div#blog{
+	background-color: #eaeaeb;
+	padding: 5%;
+}
+div#footer {
+	text-align: left;
+	background-color: #192951;
+	color: white;
+	padding: 10px;
+}
+#titleblog{
+	padding: 3%;
+	padding-bottom: 5%;
+}
+.negrita{
+	font-weight: bold;
+}
+
+div#divcontactos {
+	width: 100%;
+	height: auto;
+	padding: 80px;
+	position: relative;
+}
+
+div#formulario {
+	position: relative; 
+	z-index: 2; 
+
+}
+
+#img_zapato{
+	position: absolute;
+	width: 63%;
+	z-index: -1;
+	bottom: 8%;
+	right: 0;
+	max-height: 90%;
+}
+.titulo{
+	color:#0d1b2a;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+div#opciones{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text-gray{
+	color:rgb(212, 212, 212);
+}
+.tm{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1%;
+	height: auto;
+	z-index: 0;
+}
+.boton {
+	display: inline-block;
+	padding: 1%;
+	text-decoration: none; 
+	border-radius: 5px; 
+	border: none;
+	cursor: pointer;
+}
+.boton:hover {
+	background-color: #6d6d6d;
+	color:white;
+}
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+@media screen and (max-width: 768px) {
+    .titulo {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+	
+}

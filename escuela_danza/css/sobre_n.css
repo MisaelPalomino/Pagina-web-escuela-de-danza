@@ -1,0 +1,212 @@
+* {
+    font-family: "Latolight";
+}
+#button_main{
+	position: fixed;
+	right: 0;
+	padding: 1%;
+	background-color: #0d1b2a;
+	color: white;
+	z-index: 3;
+	border-radius: 0.5rem;
+}
+div#text_cont {
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 0 auto;
+    padding: 5%;
+}
+.texti{
+	color: white;
+	opacity: 100;
+}
+div#pilares{
+	background-image: url(../img/cubes.png);
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+div#sobre_nosotros{
+	background-image: url(../img/dance_7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+	padding-right: 30%;
+	padding-left: 30%;
+}
+.fila{
+	margin: 4%;
+}
+.txt{
+	color: #939596;
+}
+.negrita{
+	font-weight: bold;
+}
+.marco {
+    padding: 2%;
+    margin: 0;
+    padding-bottom: 9%;
+}
+
+div#fila {
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.image-marc {
+    width: 100%; 
+    height: auto;
+}
+
+.marco_image {
+    max-width: 300px; 
+    height: 150px;
+	min-width: 100px;
+	min-height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.marco_image1 {
+    max-width: 300px; 
+    height: 150px;
+	min-width: 100px;
+	min-height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1#frase{
+	color: #0d1b2a;
+	font-style: italic ;
+}
+
+div#contfrase{
+	text-align: center;
+}
+
+div#divinstructores{
+	text-align: center;
+}
+
+h3#text_inst{
+	color:#0d1b2a;
+	font-weight: bold;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+div#divfrase{
+	background-image: url(../img/cubes.png);
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+div#footer {
+	text-align: left;
+	background-color: #192951;
+	color: white;
+	padding: 10px;
+}
+
+div#divcontactos {
+	width: 100%;
+	height: auto;
+	padding: 40px;
+	position: relative;
+}
+
+div#formulario {
+	position: relative; 
+	z-index: 2; 
+
+}
+
+#img_zapato{
+	position: absolute;
+	width: 63%;
+	z-index: -1;
+	bottom: 8%;
+	right: 0;
+	max-height: 90%;
+}
+tm{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1%;
+	height: auto;
+	z-index: 0;
+}
+.boton {
+	display: inline-block;
+	padding: 1%;
+	text-decoration: none; 
+	border-radius: 5px; 
+	border: none;
+	cursor: pointer;
+}
+.boton:hover {
+	background-color: #6d6d6d;
+	color:white;
+}
+.titulo{
+	color:#152d6b;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+div#opciones{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text-gray{
+	color:rgb(212, 212, 212);
+}
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+@media screen and (max-width: 768px) {
+    .titulo {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+	
+}

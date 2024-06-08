@@ -1,0 +1,231 @@
+* {
+    font-family: "Latolight";
+}
+.text-white{
+	color:white
+}
+#button_main{
+	position: fixed;
+	right: 0;
+	padding: 1%;
+	background-color: #0d1b2a;
+	color: white;
+	z-index: 3;
+	border-radius: 0.5rem;
+}
+div#ejemplodeclases{
+	background-color: #0d1b2a;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+div#contai_img{
+	background-image: url(../img/dance_12.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	margin: 1%;
+}
+.contain_video {
+    width: 100%;
+    height: auto;
+}
+.hot-rider{
+	margin: 2%;
+}
+
+.gaa{
+	padding: 5%;
+}
+div#contai_img1{
+	background-image: url(../img/breakdance.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	margin: 1%;
+}
+div#contai_img2{
+	background-image: url(../img/lirical-jazz.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	margin: 1%;
+}
+div#contai_img3{
+	background-image: url(../img/arabe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	margin: 1%;
+}
+div#contai_img4{
+	background-image: url(../img/little.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	margin: 1%;
+}
+div#contai_img5{
+	background-image: url(../img/yoga.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding: 2%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	margin: 1%;
+}
+.fondo{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+div#divclases{
+	background-color: #eaebeb;
+	padding-bottom: 7%;
+}
+h3#ofert_text{
+	padding-top: 8%;
+	padding-bottom: 1%;
+}
+.textin{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+}
+div#footer {
+	text-align: left;
+	background-color: #0d1b2a;
+	color: white;
+	padding: 10px;
+}
+.negrita{
+	font-weight: bold;
+}
+div#divcontactos {
+	width: 100%;
+	height: auto;
+	padding: 80px;
+	position: relative;
+}
+
+div#formulario {
+	position: relative; 
+	z-index: 2; 
+
+}
+
+#img_zapato{
+	position: absolute;
+	width: 63%;
+	z-index: -1;
+	bottom: 8%;
+	right: 0;max-height: 90%;
+}
+.titulo{
+	color:#0d1b2a;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+div#opciones{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text-gray{
+	color:rgb(212, 212, 212);
+}
+tm{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1%;
+	height: auto;
+	z-index: 0;
+}
+.boton {
+	display: inline-block;
+	padding: 1%;
+	text-decoration: none; 
+	border-radius: 5px; 
+	border: none;
+	cursor: pointer;
+}
+.boton:hover {
+	background-color: #6d6d6d;
+	color:white;
+}
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+@media screen and (max-width: 768px) {
+    .titulo {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+	div#contai_img{
+		padding-top: 20%;
+		padding-bottom: 20%;
+		margin-bottom: 5%;
+	}
+	
+}
